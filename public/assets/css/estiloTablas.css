@@ -1,0 +1,22 @@
+td{
+	font-size: 13px;
+	text-align: center;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	height: 20px;
+}
+
+thead{
+	background: #fff;
+	text-align: center;
+}
+
+#tab_scroll {
+	overflow:scroll;
+	height:400px;
+	width:100%;
+}
+#tab_scroll table {
+   width:100%;
+   background-color:lightgray;
+}
