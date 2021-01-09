@@ -2,7 +2,7 @@
 
 El Sistema Web fue desarrollado con el Framework Laravel con la versión 6.18.2.
 
-Comando para ver la versión de Laravel php artisan --version 
+Comando para ver la versión de Laravel - **php artisan --version**
 - [Documentación oficial](https://laravel.com/docs/6.x).
 
 
