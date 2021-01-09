@@ -1,4 +1,4 @@
-## About Laravel
+## LABORATORIOS-ESFOT-WEB
 
 El Sistema Web fue desarrollado con el Framework Laravel con la versión 6.18.2.
 
