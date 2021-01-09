@@ -12,5 +12,5 @@ Comando para ver la versión de Laravel php artisan --version
 - **Informe Técnico [Ver](https://github.com/Jorge710/LABORATORIOS-ESFOT-WEB/blob/documentosTecnicos/Informe-T%C3%A9cnico.pdf)**
 - **Manual Técnico [Ver](https://tighten.co)**
 - **Manual Usuario [Ver](https://youtu.be/ZJ-6uwrnsAw)**
-- **Manual de Instalación [Ver](https://64robots.com)**
+- **Manual de Instalación [Ver](https://github.com/Jorge710/LABORATORIOS-ESFOT-WEB/blob/documentosTecnicos/Manual-Instalaci%C3%B3n.pdf)**
 
