@@ -15,7 +15,10 @@ Comando para ver la versión de Laravel - **php artisan --version**
 - **Manual de Instalación [Ver](https://github.com/Jorge710/LABORATORIOS-ESFOT-WEB/blob/documentosTecnicos/Manual-Instalaci%C3%B3n.pdf)**
 
 ## Pasos previos al clonar el proyecto
+ 
+A continuación se detalla los pasos previos al clonar el proyecto con sus respectivos comandos:
 
-- **Instalar las dependencias.-** Con el siguiente comando instalara el directorio node_modules**nmp install**
-- **Instalar las dependencias.-** Con el siguiente comando instalara las dependencias usando composer **composer install**
-- **Crear el archivo .env** Copiar el archivo **.env.example** y renombrar por **.env**
+- **1.-** Crear el directorio node_modules **nmp install**
+- **2.-** Dependencias por medio de composer **composer install**
+- **3.-** Copiar el archivo **.env.example** y renombrar por **.env**
+- **4.-** Generar la clave de encriptación **php artisan key:generate**
