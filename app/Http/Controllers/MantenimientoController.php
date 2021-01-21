@@ -90,6 +90,8 @@ class MantenimientoController extends Controller
             ->join('systems', 'systems.id', '=', 'equipment.systems_id')
             ->join('areas', 'areas.id', '=', 'systems.areas_id')
             ->join('locations', 'areas.locations_id', '=', 'locations.id')
+            //->join('users','users.id','=','messages.sender_id')
+            ->join('locations_user', 'locations_user.locations_id', '=','locations.id')
             ->select(
                 'equipment.code',
                 'equipment.image_equipment',
@@ -108,7 +110,8 @@ class MantenimientoController extends Controller
                 'areas.code as code_areas',
                 'systems.code as code_systems'
                 )
-            ->where('messages.sender_id', '=', auth()->id())
+            //->where('messages.sender_id', '=', auth()->id())
+            ->where('locations_user.user_id', '=', auth()->id())
             ->where('messages.created_at', '>=', $constraints['from'])
             ->where('messages.created_at', '<=', $constraints['to'])
             ->paginate(10);
