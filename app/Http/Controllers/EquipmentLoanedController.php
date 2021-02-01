@@ -16,7 +16,7 @@ class EquipmentLoanedController extends Controller
     {
         date_default_timezone_set('America/Guayaquil');
         $format = 'Y-m-d H:i:s';
-        $now = date($format, strtotime("-30 days"));
+        $now = date($format, strtotime("-365 days"));
         $to = date($format, strtotime("+30 days"));
         $constraints = [
             'from' => $now,
